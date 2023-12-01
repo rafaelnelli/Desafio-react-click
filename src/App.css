@@ -1,0 +1,36 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+#page {
+  background-color: aliceblue;
+  display: block;
+  height: 90%;
+  width: 90%;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  position: fixed;
+}
+
+.dot {
+  display: block;
+  background-color: red;
+  height: 1vh;
+  width: 1vh;
+  border-radius: 10px;
+
+  top: 0;
+  left: 0;
+
+  position: absolute;
+}
+
+button {
+  margin: 10px;
+}
